@@ -1,0 +1,22 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: springcloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+info:
+  app.name: kuang.springcloud
+  company.name: AHseverity
+#zuul配置
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
+  ignored-services: springcloud-provider-dept  #不能在使用这个名字访问  如果这个属性写 "*" 就是隐藏全部的
+  prefix: /kaung   #公共的访问前缀，可以不写

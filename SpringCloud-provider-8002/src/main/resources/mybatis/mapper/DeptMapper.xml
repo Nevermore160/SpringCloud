@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kuang.springcloud.mapper.DeptMapper">
+    <insert id="addDept" parameterType="Dept">
+        insert into dept (dname, db_source) values (#{dname}, DATABASE())
+    </insert>
+
+    <select id="queryById" resultType="com.kuang.springcloud.pojo.Dept" parameterType="Long">
+        select * from dept where dpet_num = #{id}
+    </select>
+
+    <select id="queryAll" resultType="com.kuang.springcloud.pojo.Dept" parameterType="Long">
+        select * from dept
+    </select>
+</mapper>

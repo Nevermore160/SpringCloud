@@ -1,0 +1,11 @@
+# Project exclude paths
+/SpringCloud-api/target/
+/SpringCloud-consumer/target/
+/SpringCloud-consumer-Hystrix-Dashboard/target/
+/SpringCloud-Eureka/target/
+/SpringCloud-Eureka-7002/target/
+/SpringCloud-Eureka-7003/target/
+/SpringCloud-provider/target/
+/SpringCloud-provider-8002/target/
+/SpringCloud-provider-8003/target/
+/SpringCloud-provider-Hystrix-8001/target/

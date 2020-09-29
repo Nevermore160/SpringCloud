@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="springcloud@localhost" uuid="e05db709-8380-47e5-acbf-efba2aeed1ae">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/springcloud</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="springcloud1@localhost" uuid="1e2973cb-216d-489c-a4ec-eaf8e7220149">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/springcloud1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="springcloud2@localhost" uuid="4cd81439-afba-45a8-a8b7-82460ca1c21c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/springcloud2</jdbc-url>
+    </data-source>
+  </component>
+</project>
